@@ -35,7 +35,7 @@
                         <td><a href="?url=edit_catatan&id_catatan=<?= $pecah['0']; ?>" class="btn btn-warning btn-sm">Ubah</a></td>
                         <td><a onclick="return confirm('Apakah Anda yakin ingin menghapus data')" href="hapus_catatan.php?id_catatan=<?= $pecah['0']; ?>" class="btn btn-danger btn-sm">Hapus</a></td>
                     </tr>
-            <?php break;}
+            <?php }
             }
             ?>
         </tbody>

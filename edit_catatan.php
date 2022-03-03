@@ -23,7 +23,8 @@
                     </div>
                     <div class="form-group">
                         <label for="suhu_tubuh" class="form-control-label">Suhu Tubuh</label>
-                        <input value=<?= $pecah['6'] ?> required class="form-control" type="text" id="suhu_tubuh" placeholder="Masukkan Suhu Tubuh Anda" name="suhu_tubuh">
+                        <input value=<?= $pecah['6'] ?> required class="form-control" type="text" id="suhu_tubuh" placeholder="Masukkan Suhu Tubuh Anda" name="suhu_tubuh" onkeypress="return (event.charCode >= 48 && event.charCode <= 57) ||  
+     event.charCode == 44 || event.charCode == 0 ">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-info">Kirim</button>

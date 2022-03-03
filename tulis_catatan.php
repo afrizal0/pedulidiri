@@ -1,4 +1,4 @@
-     <form method="POST" action="simpan_catatan.php" class="container-fluid">
+     <form method="POST" action="simpan_catatan.php" class="container-fluid" autocomplete="off">
          <div class="opacity-none font-weight-bolder mb-4">
              <h3>Tulis Catatan</h3>
          </div>
@@ -17,7 +17,8 @@
          </div>
          <div class="form-group">
              <label for="suhu_tubuh" class="form-control-label">Suhu Tubuh</label>
-             <input required class="form-control" type="text" id="suhu_tubuh" placeholder="Masukkan Suhu Tubuh Anda" name="suhu_tubuh">
+             <input required class="form-control" type="text" id="suhu_tubuh" placeholder="Masukkan Suhu Tubuh Anda" name="suhu_tubuh" onkeypress="return (event.charCode >= 48 && event.charCode <= 57) ||  
+     event.charCode == 44 || event.charCode == 0 ">
          </div>
          <div class="form-group">
 
