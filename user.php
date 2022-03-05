@@ -147,7 +147,17 @@ if (empty($_SESSION['nik'])) { ?>
           </a>
         </li>
 
+        <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Dukung Kami</h6>
+        </li>
+
+        <li class="nav-item">
+          <a href="https://saweria.co/afrizal0" class="nav-link" target="_blank">
+            <button type="button" class="btn btn-outline-info btn-block">😊 Sawer</button>
+          </a>
+        </li>
       </ul>
+
     </div>
   </aside>
   <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">

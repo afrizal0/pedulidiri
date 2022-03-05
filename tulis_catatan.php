@@ -23,7 +23,7 @@
          <div class="form-group">
 
              <button type="submit" class="btn btn-info">Kirim</button>
-             <button type="button" class="btn btn-warning">Batal</button>
+             <button type="reset" class="btn btn-outline-warning">Bersihkan</button>
 
          </div>
      </form>
