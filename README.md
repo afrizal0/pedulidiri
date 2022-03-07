@@ -17,5 +17,5 @@ To run this project, make txt file for store the data:
 
 ```
 $ cd your_directory
-$ touch catatan.txt, config.txt
+$ touch catatan.txt config.txt
 ```
